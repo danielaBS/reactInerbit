@@ -1,0 +1,99 @@
+.comp-container {
+    height: 100vh;
+}
+.table-container {
+    height: 80vh;
+    border-width: 1px 1px 0px 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+.dataTable {
+    width: 100%;
+    padding: 0.5rem;
+    height: auto;
+    min-height: 92.3%;  
+}
+.dataTable button {
+    border: none;
+    padding: 8px 12px;
+    background-color: #8674a8;
+    border-radius: 4px;
+    color: white
+}
+.well {
+    padding: 8px;
+    width: 84%; 
+    display: flex;
+    justify-content: end;
+    margin: 4rem 0 0;
+}
+form.nosubmit {
+    border: none;
+    padding: 0;
+}
+  
+input.nosubmit {
+    width: 260px;
+    border: 1px solid #555;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+.pagination-data p {
+    margin: auto !important;
+    padding: 0 1rem;
+}
+td {
+    padding-left: 0.6rem;
+}
+tr {
+    border-bottom: 1px !important;
+    border-color: lightgray !important;
+    border-style: solid !important;
+}
+.modal-dialog {
+    max-width: 60vw !important;
+    width: 50vw !important;
+}
+.modal-content {
+    max-height: 90vh;
+    height: auto;
+    overflow-y: auto;
+}
+form[name=editItem], form[name=delConfirmation], form[name=add] {
+    padding: 2rem;
+}
+form[name=editItem] label, form[name=delConfirmation] label, form[name=add] label {
+    text-align: left;
+    margin: 0 ;
+}
+.input-div {
+    margin-bottom: 0.5rem;
+}
+.btns-utils {
+    padding: 1.5rem 1.5rem 0;
+}
+.btns-utils input, .btns-utils button {
+    width: 200px !important;
+    border-radius: 3px;
+    padding: 12px 8px;
+    text-align: center;
+}
+.btn-default {
+    padding: 12px 8px;
+    border: none;
+    color: white;
+    background-color: #53358e; 
+    border-radius: 6px;
+}
+.btns-utils input[type=submit]{
+    color: white;
+    background-color: #53358e;    
+}
+
+@media only screen and (max-width: 700px) { 
+    .well {
+        width: 95%;        
+    }
+  
+  }
